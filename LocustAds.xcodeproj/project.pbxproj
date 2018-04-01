@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F1B65ADF0E81D1CCC2D982E /* Pods_BannerAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 560CC61CD3B0C5F0AA726D1E /* Pods_BannerAds.framework */; };
+		2EBE24D46F43BB1B031ADEBC /* Pods_LocustAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20E28B5F410559B7F8AD3D8 /* Pods_LocustAds.framework */; };
 		58951A41206E85E900AA2351 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58951A40206E85E900AA2351 /* AppDelegate.swift */; };
 		58951A43206E85E900AA2351 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58951A42206E85E900AA2351 /* ViewController.swift */; };
 		58951A46206E85E900AA2351 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58951A44206E85E900AA2351 /* Main.storyboard */; };
 		58951A48206E85E900AA2351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58951A47206E85E900AA2351 /* Assets.xcassets */; };
 		58951A4B206E85E900AA2351 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58951A49206E85E900AA2351 /* LaunchScreen.storyboard */; };
 		58951A53206E8B3B00AA2351 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58951A52206E8B3B00AA2351 /* GoogleService-Info.plist */; };
-		58951A55206E8F2900AA2351 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58951A54206E8F2900AA2351 /* Banner.swift */; };
+		58951A55206E8F2900AA2351 /* AdsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58951A54206E8F2900AA2351 /* AdsExtension.swift */; };
 		58951A58207087E400AA2351 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58951A57207087E400AA2351 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		560CC61CD3B0C5F0AA726D1E /* Pods_BannerAds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BannerAds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		58951A3D206E85E900AA2351 /* BannerAds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BannerAds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC51D4FD3F198181ACB1496 /* Pods-LocustAds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocustAds.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocustAds/Pods-LocustAds.release.xcconfig"; sourceTree = "<group>"; };
+		58951A3D206E85E900AA2351 /* LocustAds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocustAds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58951A40206E85E900AA2351 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58951A42206E85E900AA2351 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		58951A45206E85E900AA2351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -28,10 +28,12 @@
 		58951A4A206E85E900AA2351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58951A4C206E85E900AA2351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58951A52206E8B3B00AA2351 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		58951A54206E8F2900AA2351 /* Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
+		58951A54206E8F2900AA2351 /* AdsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsExtension.swift; sourceTree = "<group>"; };
 		58951A57207087E400AA2351 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6322FDF996CF34DEEE03590E /* Pods-LocustAds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocustAds.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocustAds/Pods-LocustAds.debug.xcconfig"; sourceTree = "<group>"; };
 		6CD66A4CA4ACFE5E1DF87BF4 /* Pods-BannerAds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BannerAds.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BannerAds/Pods-BannerAds.debug.xcconfig"; sourceTree = "<group>"; };
 		90CB3D9068314928BEBF72FF /* Pods-BannerAds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BannerAds.release.xcconfig"; path = "Pods/Target Support Files/Pods-BannerAds/Pods-BannerAds.release.xcconfig"; sourceTree = "<group>"; };
+		B20E28B5F410559B7F8AD3D8 /* Pods_LocustAds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocustAds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F1B65ADF0E81D1CCC2D982E /* Pods_BannerAds.framework in Frameworks */,
+				2EBE24D46F43BB1B031ADEBC /* Pods_LocustAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,7 +51,7 @@
 		58951A34206E85E900AA2351 = {
 			isa = PBXGroup;
 			children = (
-				58951A3F206E85E900AA2351 /* BannerAds */,
+				58951A3F206E85E900AA2351 /* LocustAds */,
 				58951A3E206E85E900AA2351 /* Products */,
 				901EB9A0842E6F36B7802360 /* Pods */,
 				9CCEE604F3E31814A31DEA1A /* Frameworks */,
@@ -59,12 +61,12 @@
 		58951A3E206E85E900AA2351 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				58951A3D206E85E900AA2351 /* BannerAds.app */,
+				58951A3D206E85E900AA2351 /* LocustAds.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		58951A3F206E85E900AA2351 /* BannerAds */ = {
+		58951A3F206E85E900AA2351 /* LocustAds */ = {
 			isa = PBXGroup;
 			children = (
 				58951A40206E85E900AA2351 /* AppDelegate.swift */,
@@ -76,24 +78,24 @@
 				58951A4C206E85E900AA2351 /* Info.plist */,
 				58951A52206E8B3B00AA2351 /* GoogleService-Info.plist */,
 			);
-			path = BannerAds;
+			path = LocustAds;
 			sourceTree = "<group>";
 		};
 		58951A56206E8F3400AA2351 /* Util */ = {
 			isa = PBXGroup;
 			children = (
 				58951A57207087E400AA2351 /* Constants.swift */,
-				58951A592070887A00AA2351 /* LocustAds */,
+				58951A592070887A00AA2351 /* Ads */,
 			);
 			path = Util;
 			sourceTree = "<group>";
 		};
-		58951A592070887A00AA2351 /* LocustAds */ = {
+		58951A592070887A00AA2351 /* Ads */ = {
 			isa = PBXGroup;
 			children = (
-				58951A54206E8F2900AA2351 /* Banner.swift */,
+				58951A54206E8F2900AA2351 /* AdsExtension.swift */,
 			);
-			path = LocustAds;
+			path = Ads;
 			sourceTree = "<group>";
 		};
 		901EB9A0842E6F36B7802360 /* Pods */ = {
@@ -101,6 +103,8 @@
 			children = (
 				6CD66A4CA4ACFE5E1DF87BF4 /* Pods-BannerAds.debug.xcconfig */,
 				90CB3D9068314928BEBF72FF /* Pods-BannerAds.release.xcconfig */,
+				6322FDF996CF34DEEE03590E /* Pods-LocustAds.debug.xcconfig */,
+				4FC51D4FD3F198181ACB1496 /* Pods-LocustAds.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -108,7 +112,7 @@
 		9CCEE604F3E31814A31DEA1A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				560CC61CD3B0C5F0AA726D1E /* Pods_BannerAds.framework */,
+				B20E28B5F410559B7F8AD3D8 /* Pods_LocustAds.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,9 +120,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		58951A3C206E85E900AA2351 /* BannerAds */ = {
+		58951A3C206E85E900AA2351 /* LocustAds */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58951A4F206E85E900AA2351 /* Build configuration list for PBXNativeTarget "BannerAds" */;
+			buildConfigurationList = 58951A4F206E85E900AA2351 /* Build configuration list for PBXNativeTarget "LocustAds" */;
 			buildPhases = (
 				B832393129BEC4E0436BE1D0 /* [CP] Check Pods Manifest.lock */,
 				58951A39206E85E900AA2351 /* Sources */,
@@ -131,9 +135,9 @@
 			);
 			dependencies = (
 			);
-			name = BannerAds;
+			name = LocustAds;
 			productName = BannerAds;
-			productReference = 58951A3D206E85E900AA2351 /* BannerAds.app */;
+			productReference = 58951A3D206E85E900AA2351 /* LocustAds.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -152,7 +156,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 58951A38206E85E900AA2351 /* Build configuration list for PBXProject "BannerAds" */;
+			buildConfigurationList = 58951A38206E85E900AA2351 /* Build configuration list for PBXProject "LocustAds" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -165,7 +169,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				58951A3C206E85E900AA2351 /* BannerAds */,
+				58951A3C206E85E900AA2351 /* LocustAds */,
 			);
 		};
 /* End PBXProject section */
@@ -197,7 +201,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BannerAds/Pods-BannerAds-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocustAds/Pods-LocustAds-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B832393129BEC4E0436BE1D0 /* [CP] Check Pods Manifest.lock */ = {
@@ -211,7 +215,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BannerAds-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-LocustAds-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -224,7 +228,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-BannerAds/Pods-BannerAds-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-LocustAds/Pods-LocustAds-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -235,7 +239,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BannerAds/Pods-BannerAds-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocustAds/Pods-LocustAds-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -247,7 +251,7 @@
 			files = (
 				58951A43206E85E900AA2351 /* ViewController.swift in Sources */,
 				58951A41206E85E900AA2351 /* AppDelegate.swift in Sources */,
-				58951A55206E8F2900AA2351 /* Banner.swift in Sources */,
+				58951A55206E8F2900AA2351 /* AdsExtension.swift in Sources */,
 				58951A58207087E400AA2351 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,12 +387,12 @@
 		};
 		58951A50206E85E900AA2351 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6CD66A4CA4ACFE5E1DF87BF4 /* Pods-BannerAds.debug.xcconfig */;
+			baseConfigurationReference = 6322FDF996CF34DEEE03590E /* Pods-LocustAds.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y6UT6A87VB;
-				INFOPLIST_FILE = BannerAds/Info.plist;
+				DEVELOPMENT_TEAM = 5FV6RYMWZJ;
+				INFOPLIST_FILE = "$(SRCROOT)/LocustAds/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Locust.Inc.BannerAds;
@@ -400,12 +404,12 @@
 		};
 		58951A51206E85E900AA2351 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90CB3D9068314928BEBF72FF /* Pods-BannerAds.release.xcconfig */;
+			baseConfigurationReference = 4FC51D4FD3F198181ACB1496 /* Pods-LocustAds.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y6UT6A87VB;
-				INFOPLIST_FILE = BannerAds/Info.plist;
+				DEVELOPMENT_TEAM = 5FV6RYMWZJ;
+				INFOPLIST_FILE = "$(SRCROOT)/LocustAds/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Locust.Inc.BannerAds;
@@ -418,7 +422,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		58951A38206E85E900AA2351 /* Build configuration list for PBXProject "BannerAds" */ = {
+		58951A38206E85E900AA2351 /* Build configuration list for PBXProject "LocustAds" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58951A4D206E85E900AA2351 /* Debug */,
@@ -427,7 +431,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58951A4F206E85E900AA2351 /* Build configuration list for PBXNativeTarget "BannerAds" */ = {
+		58951A4F206E85E900AA2351 /* Build configuration list for PBXNativeTarget "LocustAds" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58951A50206E85E900AA2351 /* Debug */,

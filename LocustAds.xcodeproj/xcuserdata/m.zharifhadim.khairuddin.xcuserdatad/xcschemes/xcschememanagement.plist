@@ -9,6 +9,19 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>LocustAds.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>58951A3C206E85E900AA2351</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>

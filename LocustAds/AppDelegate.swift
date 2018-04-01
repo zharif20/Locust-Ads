@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  BannerAds
+//  LocustAds
 //
 //  Created by M. Zharif Hadi M. Khairuddin on 30/03/2018.
 //  Copyright © 2018 M. Zharif Hadi M. Khairuddin. All rights reserved.
@@ -14,12 +14,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         FirebaseApp.configure()
         
-        Banner.sharedInstance.initializeGoogleMobileAds()
+        AdsExtension.sharedInstance.initializeGoogleMobileAds()
         
         return true
         //ca-app-pub-4961077055047571~6665010465
