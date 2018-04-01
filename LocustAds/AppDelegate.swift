@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,7 +17,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FirebaseApp.configure()
+        
+        Banner.sharedInstance.initializeGoogleMobileAds()
+        
         return true
+        //ca-app-pub-4961077055047571~6665010465
+        //ca-app-pub-4961077055047571/7218285054
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
